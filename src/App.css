@@ -1,0 +1,33 @@
+.search_bar{
+    position: relative;
+    left: 400px;
+    top: 70px;
+}
+.search_button{
+    position: relative;
+    left: 1010px;
+    top: 20px;
+}
+.result_card{
+    max-width: 250px;
+}
+.input{
+    width: 600px;
+}
+.logo{
+    position: relative;
+    left: 650px;
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+}
+.song_image{
+    max-width: 120px;
+    max-height: 120px;
+    object-fit: contain;
+}
+.login_button{
+    position: relative;
+    left: 650px;
+    top: 30px;
+}

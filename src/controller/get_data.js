@@ -15,7 +15,7 @@ function send_fetch_request(url,access_token){
 async function get_data(keyword,access_token){
   let search_params = {
     q: keyword,
-    type: 'album,artist,playlist,track'
+    type: 'album'
   };
   let url = create_url(search_url,search_params);
   let res = await send_fetch_request(url,access_token);

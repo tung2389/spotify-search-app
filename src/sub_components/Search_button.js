@@ -7,7 +7,7 @@ export default class SearchButton extends Component {
   render() {
     return (
       <div className = "search_button">
-        <Fab color="primary" aria-label="Search">
+        <Fab color="primary" aria-label="Search" onClick = {this.props.onClick}>
         <SearchIcon/>
         </Fab>
       </div>
