@@ -1,4 +1,4 @@
-let redirect_url = 'localhost:3000';
+let redirect_url = 'https://tung2389.github.io/spotify-search-app/';
 let fields = [
     redirect_url,
     'access_token',
